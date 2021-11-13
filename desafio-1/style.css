@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 30%;
+  margin-left: 30%;
+
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+div {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+
+  margin: 20px;
+}
+
+li {
+  margin-right: 8px;
+}
+
+p {
+  margin-right: 8px;
+}
