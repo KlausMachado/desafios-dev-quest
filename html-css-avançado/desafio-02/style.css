@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  font-family: sans-serif;
+  color: white;
+
+  display: flex;
+  padding: 100px 21px;
+}
+
+.img-1 {
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./lista-imagens/6.jpg") center center no-repeat;
+
+  background-size: cover;
+  height: 431px;
+  width: 335px;
+  margin-right: 18px;
+}
+
+.img-1 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.img-1 p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.img-2 {
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./lista-imagens/3.jpg") center center no-repeat;
+  height: 431px;
+  width: 335px;
+  background-size: cover;
+  margin-right: 18px;
+}
+
+.img-2 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.img-2 p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.img-3 {
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./lista-imagens/4.jpg") center center no-repeat;
+  height: 431px;
+  width: 335px;
+  background-size: cover;
+  margin-right: 18px;
+}
+
+.img-3 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.img-3 p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.img-4 {
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./lista-imagens/5.jpg") center center no-repeat;
+  height: 431px;
+  width: 335px;
+  background-size: cover;
+}
+
+.img-4 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.img-4 p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.indentificacao {
+  margin-bottom: 31px;
+  margin-left: 19px;
+}
+
+@media (max-width: 375px) {
+  section {
+    display: block;
+  }
+}
